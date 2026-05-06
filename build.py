@@ -505,6 +505,113 @@ def contact_page():
 """
 
 
+def feedback_page():
+    return f"""{head("Para Alondra — preguntas para el sitio web", "Página privada para que Alondra conteste preguntas sobre sus servicios.")}
+<meta name="robots" content="noindex,nofollow" />
+{site_header('')}
+
+<section class="page-hero" style="background-image: url('{PHOTO_LOG_CABIN}'); min-height: 240px;">
+  <div class="container">
+    <h1>Hola, Alondra</h1>
+    <p class="crumb">Página privada · solo para ti</p>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width: 760px;">
+    <p class="eyebrow">Preguntas para el sitio</p>
+    <h2 style="font-size: clamp(1.6rem, 3vw, 2.2rem);">Quiero que la página de servicios suene como tú.</h2>
+    <p>Sam aquí. Estoy actualizando el sitio y la página de servicios suena muy genérica — quiero que suene como tú trabajas, no como una plantilla. ¿Puedes contestar las preguntas que puedas? Frases cortas son perfectas. No tienes que contestar todas — manda lo que tengas y seguimos después.</p>
+
+    <form class="contact-form" style="margin-top: 2rem;"
+          action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID"
+          method="POST"
+          onsubmit="return handleContactSubmit(event)">
+      <input type="hidden" name="_subject" value="Respuestas de Alondra — sitio web" />
+      <input type="hidden" name="_next" value="https://alondrascleaning.com/para-alondra-gracias" />
+
+      <h3 style="margin-top: 0;">En general</h3>
+      <label for="q_traer">¿Qué traes contigo a cada trabajo? (productos, herramientas, equipo)</label>
+      <textarea id="q_traer" name="q_traer" rows="3"></textarea>
+
+      <label for="q_diferente">¿Qué haces siempre que otros que limpian no hacen?</label>
+      <textarea id="q_diferente" name="q_diferente" rows="3"></textarea>
+
+      <h3>Casas regulares</h3>
+      <label for="q_casas">Cuéntame de las casas que limpias regularmente — qué tipo, cada cuánto, cuánto tiempo te toma una visita.</label>
+      <textarea id="q_casas" name="q_casas" rows="4"></textarea>
+
+      <label for="q_clientes_largos">¿Hay algún cliente que has limpiado por años? ¿Cómo es esa relación?</label>
+      <textarea id="q_clientes_largos" name="q_clientes_largos" rows="3"></textarea>
+
+      <h3>Airbnbs y casas de vacaciones</h3>
+      <label for="q_airbnb_volumen">¿Cuántos Airbnbs limpias al mes? ¿Cuánto tiempo te toma uno típico?</label>
+      <textarea id="q_airbnb_volumen" name="q_airbnb_volumen" rows="3"></textarea>
+
+      <label for="q_airbnb_proceso">Cuando entras a un Airbnb después de los huéspedes, ¿qué es lo primero que haces? ¿Qué te toma más tiempo?</label>
+      <textarea id="q_airbnb_proceso" name="q_airbnb_proceso" rows="4"></textarea>
+
+      <label for="q_airbnb_aprecian">¿Qué te dicen los dueños de Airbnbs que aprecian de tu trabajo?</label>
+      <textarea id="q_airbnb_aprecian" name="q_airbnb_aprecian" rows="3"></textarea>
+
+      <h3>Negocios (Little Star, etc.)</h3>
+      <label for="q_little_star">Cuéntame de tu trabajo con Little Star — qué haces, cada cuánto, cuánto tiempo te toma.</label>
+      <textarea id="q_little_star" name="q_little_star" rows="4"></textarea>
+
+      <label for="q_otros_negocios">¿Qué otros negocios limpias? ¿Durante el día o después de horas?</label>
+      <textarea id="q_otros_negocios" name="q_otros_negocios" rows="3"></textarea>
+
+      <h3>Limpiezas especiales</h3>
+      <label for="q_profunda">¿Qué hace una limpieza "profunda" diferente de una regular? ¿Cuánto tiempo más toma?</label>
+      <textarea id="q_profunda" name="q_profunda" rows="4"></textarea>
+
+      <label for="q_mudanza">¿Has hecho limpiezas de mudanza (cuando alguien se va o llega a una casa)? ¿Qué es lo más importante en esos trabajos?</label>
+      <textarea id="q_mudanza" name="q_mudanza" rows="3"></textarea>
+
+      <label for="q_construccion">¿Has limpiado después de construcción? ¿Qué es lo más difícil de ese tipo de trabajo?</label>
+      <textarea id="q_construccion" name="q_construccion" rows="3"></textarea>
+
+      <h3>Sobre ti</h3>
+      <label for="q_diferente_otras">¿Qué te hace diferente de otras compañías de limpieza en el valle?</label>
+      <textarea id="q_diferente_otras" name="q_diferente_otras" rows="3"></textarea>
+
+      <label for="q_no_haces">¿Hay algo que tú NO haces que a veces te piden?</label>
+      <textarea id="q_no_haces" name="q_no_haces" rows="3"></textarea>
+
+      <label for="q_orgullosa">Cuéntame un trabajo reciente que te hizo sentir orgullosa — ¿qué pasó?</label>
+      <textarea id="q_orgullosa" name="q_orgullosa" rows="4"></textarea>
+
+      <label for="q_otra">¿Algo más que quieras agregar?</label>
+      <textarea id="q_otra" name="q_otra" rows="3"></textarea>
+
+      <button type="submit" class="btn btn-ink"><i class="fa-solid fa-paper-plane"></i> Enviar respuestas</button>
+      <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--muted);">¿Mejor por mensaje de voz? Mándale a Sam un texto al <a href="sms:+15094495690">teléfono que tienes</a>.</p>
+    </form>
+  </div>
+</section>
+
+{site_footer()}
+"""
+
+
+def feedback_thanks():
+    return f"""{head("¡Gracias, Alondra!", "Respuestas recibidas.")}
+<meta name="robots" content="noindex,nofollow" />
+{site_header('')}
+
+<section style="padding: clamp(5rem, 10vw, 8rem) 0; text-align: center;">
+  <div class="container" style="max-width: 600px;">
+    <p class="eyebrow">Recibido</p>
+    <h1 style="font-size: clamp(2rem, 4vw, 3rem);">¡Gracias, Alondra!</h1>
+    <p style="font-size: 1.15rem;">Sam recibió tus respuestas. Va a actualizar la página de servicios pronto y te manda un mensaje cuando esté listo.</p>
+    <p style="margin-top: 2rem;"><a class="btn btn-outline" href="/">Volver al sitio</a></p>
+  </div>
+</section>
+
+{site_footer()}
+"""
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     pages = {
@@ -513,6 +620,8 @@ def main():
         'services.html': services_page(),
         'gallery.html': gallery_page(),
         'contact.html': contact_page(),
+        'para-alondra.html': feedback_page(),
+        'para-alondra-gracias.html': feedback_thanks(),
     }
     for name, content in pages.items():
         (OUT / name).write_text(content)

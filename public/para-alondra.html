@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Alondra — preguntas para el sitio web</title>
+  <meta name="description" content="Página privada para que Alondra conteste preguntas sobre sus servicios." />
+  <link rel="icon" type="image/webp" href="images/21016f-b03e5cfa-d159-422f-95df-f5fbe73e26fc_redesLogo.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<meta name="robots" content="noindex,nofollow" />
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Alondra's Cleaning Services LLC">
+      <img src="images/a21b0e-b03e5cfa-d159-422f-95df-f5fbe73e26fc_normalLogo.webp" alt="Alondra's Cleaning Services LLC" />
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false">Menu</button>
+  </div>
+</header>
+<nav class="primary-nav" id="primaryNav">
+  <div class="container">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a class="phone-primary" href="tel:+15094495690">509-449-5690</a>
+  </div>
+</nav>
+
+<section class="page-hero" style="background-image: url('images/acee2a-asset.webp'); min-height: 240px;">
+  <div class="container">
+    <h1>Hola, Alondra</h1>
+    <p class="crumb">Página privada · solo para ti</p>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width: 760px;">
+    <p class="eyebrow">Preguntas para el sitio</p>
+    <h2 style="font-size: clamp(1.6rem, 3vw, 2.2rem);">Quiero que la página de servicios suene como tú.</h2>
+    <p>Sam aquí. Estoy actualizando el sitio y la página de servicios suena muy genérica — quiero que suene como tú trabajas, no como una plantilla. ¿Puedes contestar las preguntas que puedas? Frases cortas son perfectas. No tienes que contestar todas — manda lo que tengas y seguimos después.</p>
+
+    <form class="contact-form" style="margin-top: 2rem;"
+          action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID"
+          method="POST"
+          onsubmit="return handleContactSubmit(event)">
+      <input type="hidden" name="_subject" value="Respuestas de Alondra — sitio web" />
+      <input type="hidden" name="_next" value="https://alondrascleaning.com/para-alondra-gracias" />
+
+      <h3 style="margin-top: 0;">En general</h3>
+      <label for="q_traer">¿Qué traes contigo a cada trabajo? (productos, herramientas, equipo)</label>
+      <textarea id="q_traer" name="q_traer" rows="3"></textarea>
+
+      <label for="q_diferente">¿Qué haces siempre que otros que limpian no hacen?</label>
+      <textarea id="q_diferente" name="q_diferente" rows="3"></textarea>
+
+      <h3>Casas regulares</h3>
+      <label for="q_casas">Cuéntame de las casas que limpias regularmente — qué tipo, cada cuánto, cuánto tiempo te toma una visita.</label>
+      <textarea id="q_casas" name="q_casas" rows="4"></textarea>
+
+      <label for="q_clientes_largos">¿Hay algún cliente que has limpiado por años? ¿Cómo es esa relación?</label>
+      <textarea id="q_clientes_largos" name="q_clientes_largos" rows="3"></textarea>
+
+      <h3>Airbnbs y casas de vacaciones</h3>
+      <label for="q_airbnb_volumen">¿Cuántos Airbnbs limpias al mes? ¿Cuánto tiempo te toma uno típico?</label>
+      <textarea id="q_airbnb_volumen" name="q_airbnb_volumen" rows="3"></textarea>
+
+      <label for="q_airbnb_proceso">Cuando entras a un Airbnb después de los huéspedes, ¿qué es lo primero que haces? ¿Qué te toma más tiempo?</label>
+      <textarea id="q_airbnb_proceso" name="q_airbnb_proceso" rows="4"></textarea>
+
+      <label for="q_airbnb_aprecian">¿Qué te dicen los dueños de Airbnbs que aprecian de tu trabajo?</label>
+      <textarea id="q_airbnb_aprecian" name="q_airbnb_aprecian" rows="3"></textarea>
+
+      <h3>Negocios (Little Star, etc.)</h3>
+      <label for="q_little_star">Cuéntame de tu trabajo con Little Star — qué haces, cada cuánto, cuánto tiempo te toma.</label>
+      <textarea id="q_little_star" name="q_little_star" rows="4"></textarea>
+
+      <label for="q_otros_negocios">¿Qué otros negocios limpias? ¿Durante el día o después de horas?</label>
+      <textarea id="q_otros_negocios" name="q_otros_negocios" rows="3"></textarea>
+
+      <h3>Limpiezas especiales</h3>
+      <label for="q_profunda">¿Qué hace una limpieza "profunda" diferente de una regular? ¿Cuánto tiempo más toma?</label>
+      <textarea id="q_profunda" name="q_profunda" rows="4"></textarea>
+
+      <label for="q_mudanza">¿Has hecho limpiezas de mudanza (cuando alguien se va o llega a una casa)? ¿Qué es lo más importante en esos trabajos?</label>
+      <textarea id="q_mudanza" name="q_mudanza" rows="3"></textarea>
+
+      <label for="q_construccion">¿Has limpiado después de construcción? ¿Qué es lo más difícil de ese tipo de trabajo?</label>
+      <textarea id="q_construccion" name="q_construccion" rows="3"></textarea>
+
+      <h3>Sobre ti</h3>
+      <label for="q_diferente_otras">¿Qué te hace diferente de otras compañías de limpieza en el valle?</label>
+      <textarea id="q_diferente_otras" name="q_diferente_otras" rows="3"></textarea>
+
+      <label for="q_no_haces">¿Hay algo que tú NO haces que a veces te piden?</label>
+      <textarea id="q_no_haces" name="q_no_haces" rows="3"></textarea>
+
+      <label for="q_orgullosa">Cuéntame un trabajo reciente que te hizo sentir orgullosa — ¿qué pasó?</label>
+      <textarea id="q_orgullosa" name="q_orgullosa" rows="4"></textarea>
+
+      <label for="q_otra">¿Algo más que quieras agregar?</label>
+      <textarea id="q_otra" name="q_otra" rows="3"></textarea>
+
+      <button type="submit" class="btn btn-ink"><i class="fa-solid fa-paper-plane"></i> Enviar respuestas</button>
+      <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--muted);">¿Mejor por mensaje de voz? Mándale a Sam un texto al <a href="sms:+15094495690">teléfono que tienes</a>.</p>
+    </form>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <img src="images/a21b0e-b03e5cfa-d159-422f-95df-f5fbe73e26fc_normalLogo.webp" alt="" />
+      <p>Quiet, careful cleaning for homes, vacation homes, and businesses across the Methow Valley.</p>
+      <div class="socials">
+        <a href="https://www.tiktok.com/@alondras.cleaning1" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.pinterest.com/alondrascleaningllc/" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="https://g.page/r/CdIszSM9pV25EBM/review" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <ul>
+        <li>1212 Riverside Ave</li>
+        <li>Twisp, WA 98856</li>
+        <li>&nbsp;</li>
+        <li>Mon–Sun · 8 AM–5 PM</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+15094495690">509-449-5690</a></li>
+        <li><a href="mailto:alondrascleaningservicesllc@gmail.com">Email us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="yr"></span> Alondra's Cleaning Services LLC</span>
+    <span>Methow Valley, Washington</span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
