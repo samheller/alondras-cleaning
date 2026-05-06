@@ -77,21 +77,7 @@ def head(title, desc):
 
 
 def utility_bar():
-    return f"""
-<div class="utility">
-  <div class="container">
-    <div class="utility-info">
-      <span><i class="fa-solid fa-location-dot"></i> Twisp, WA — serving the Methow Valley</span>
-      <span><i class="fa-regular fa-clock"></i> Mon – Sun · 8 AM – 5 PM</span>
-    </div>
-    <div class="utility-social">
-      <a href="https://wa.me/+15094495690" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://www.tiktok.com/@alondras.cleaning1" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
-      <a href="https://www.pinterest.com/alondrascleaningllc/" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
-      <a href="https://g.page/r/CdIszSM9pV25EBM/review" target="_blank" rel="noopener" aria-label="Google reviews"><i class="fa-brands fa-google"></i></a>
-    </div>
-  </div>
-</div>"""
+    return ""  # removed — info repeated in header/footer; kept stub so callers don't break
 
 
 def site_header(active):
@@ -99,15 +85,13 @@ def site_header(active):
     return f"""
 <header class="site-header">
   <div class="container">
-    <div class="utility-fixed-left">
-      <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false">Menu</button>
-    </div>
+    <a class="header-side phone-link" href="tel:+15094495690">509-449-5690</a>
     <a class="brand" href="index.html" aria-label="Alondra's Cleaning Services LLC">
       <img src="{LOGO}" alt="Alondra's Cleaning Services LLC" />
-      <span class="brand-mark">Methow Valley · Est. 2013</span>
     </a>
-    <div class="utility-fixed-right">
-      <a class="header-cta" href="tel:+15094495690"><span>Call</span> <span class="phone">509-449-5690</span></a>
+    <div class="header-side cta-side">
+      <a class="cta-link" href="contact.html">Get a Quote</a>
+      <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false">Menu</button>
     </div>
   </div>
 </header>
@@ -157,7 +141,6 @@ def site_footer():
       <img src="{LOGO}" alt="" />
       <p>Quiet, careful cleaning for homes, vacation homes, and businesses across the Methow Valley.</p>
       <div class="socials">
-        <a href="https://wa.me/+15094495690" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.tiktok.com/@alondras.cleaning1" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
         <a href="https://www.pinterest.com/alondrascleaningllc/" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
         <a href="https://g.page/r/CdIszSM9pV25EBM/review" aria-label="Google"><i class="fa-brands fa-google"></i></a>
@@ -194,7 +177,6 @@ def site_footer():
     <span>Methow Valley, Washington</span>
   </div>
 </footer>
-<a class="fab" href="https://wa.me/+15094495690" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 <script src="script.js"></script>
 </body>
 </html>"""
@@ -219,7 +201,6 @@ def home():
 
 <section class="hero" style="background-image: url('{PHOTO_WINDOW_VIEW}');">
   <div class="container">
-    <p class="eyebrow">Methow Valley, est. 2013</p>
     <h1>Honest, careful cleaning for the homes of the <em>valley</em>.</h1>
     <p>We've been quietly caring for homes, vacation homes, and businesses from Lost River to Carlton for more than a decade — one careful clean at a time.</p>
     <div class="hero-actions">
