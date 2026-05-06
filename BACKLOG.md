@@ -16,7 +16,7 @@ Read it before each session. Update it after.
 - Is "Methow Valley · Est. 2013" right, or did she start a different year?
 - How do customers actually reach her — text, call, email? Which does she prefer?
 - Are there 2–3 real customer testimonials we can quote (with their permission)?
-- What's the actual service area? We listed Twisp, Winthrop, Mazama, Carlton, Pateros, Methow — confirm.
+- ~~What's the actual service area?~~ **Confirmed: Lost River to Carlton.** Address is 1212 Riverside Ave, Twisp (correct as displayed).
 - Pricing: stay by-quote, or post starting prices for transparency?
 - Photos: any of the 9 we picked she'd rather not use? Any clients who *don't* want their home shown publicly?
 - Are TikTok and Pinterest links worth keeping, or can we drop dormant ones?

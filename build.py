@@ -54,7 +54,7 @@ SERVICES = [
      PHOTO_EXTERIOR),
 ]
 
-TOWNS = ["Twisp", "Winthrop", "Mazama", "Carlton", "Pateros", "Methow"]
+TOWNS = ["Lost River", "Mazama", "Winthrop", "Twisp", "Methow", "Carlton"]
 
 
 # ---- partials ----
@@ -221,7 +221,7 @@ def home():
   <div class="container">
     <p class="eyebrow">Methow Valley, est. 2013</p>
     <h1>Honest, careful cleaning for the homes of the <em>valley</em>.</h1>
-    <p>We've been quietly caring for homes and businesses across Twisp, Winthrop, and Mazama for more than a decade — one careful clean at a time.</p>
+    <p>We've been quietly caring for homes and businesses from Lost River to Carlton for more than a decade — one careful clean at a time.</p>
     <div class="hero-actions">
       <a class="btn btn-light" href="sms:+15094495690"><i class="fa-solid fa-comment"></i> Text 509-449-5690</a>
       <a class="btn" style="background:transparent; color:var(--cream); border-color:rgba(250,245,236,0.5);" href="tel:+15094495690"><i class="fa-solid fa-phone"></i> Call</a>
@@ -235,7 +235,7 @@ def home():
   <div class="container">
     <div class="signals">
       <div class="signal"><strong>12+</strong><span>Years in the Valley</span></div>
-      <div class="signal"><strong>40 mi</strong><span>Service Radius</span></div>
+      <div class="signal"><strong>Methow Valley</strong><span>Lost River → Carlton</span></div>
       <div class="signal"><strong>Mon–Sun</strong><span>8 AM – 5 PM</span></div>
     </div>
   </div>
@@ -468,7 +468,7 @@ def contact_page():
           <dt>Hours</dt>
           <dd>Mon – Sun · 8 AM – 5 PM</dd>
           <dt>Service area</dt>
-          <dd>The Methow Valley, within ~40 miles of Twisp.</dd>
+          <dd>The Methow Valley — Lost River to Carlton.</dd>
         </dl>
       </aside>
 
