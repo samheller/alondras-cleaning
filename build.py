@@ -9,12 +9,14 @@ ROOT = Path(__file__).parent
 OUT = ROOT / "public"  # Cloudflare Pages deploys from here
 
 # --- her assets on her firebase ---
-LOGO = "https://firebasestorage.googleapis.com/v0/b/interscopemediacrm.appspot.com/o/Clientes%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc_normalLogo.webp?alt=media&token=9a50c1b2-0d53-4738-98d7-91836d65528a"
-FAVICON = "https://firebasestorage.googleapis.com/v0/b/interscopemediacrm.appspot.com/o/Clientes%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc_redesLogo.webp?alt=media&token=17749670-7d78-49a3-b620-79cc10e342fc"
+LOGO = "images/a21b0e-b03e5cfa-d159-422f-95df-f5fbe73e26fc_normalLogo.webp"
+FAVICON = "images/21016f-b03e5cfa-d159-422f-95df-f5fbe73e26fc_redesLogo.webp"
 
 # curated keepers from her gallery — clean, finished, Methow-feeling
+_TOKEN_MAP = {'9a50c1b2-0d53-4738-98d7-91836d65528a': 'images/a21b0e-b03e5cfa-d159-422f-95df-f5fbe73e26fc_normalLogo.webp', '17749670-7d78-49a3-b620-79cc10e342fc': 'images/21016f-b03e5cfa-d159-422f-95df-f5fbe73e26fc_redesLogo.webp', '4711f986-93fa-4833-a463-1a0c820a80f3': 'images/1634e2-asset.webp', 'aaf931bf-929a-40b3-9866-1ad9110e5b53': 'images/45f430-asset.webp', 'b5a68c47-2650-40fa-bb8a-2a50a8826562': 'images/acee2a-asset.webp', '5f76010a-37ec-4799-85b5-b64b240b657a': 'images/bed2b4-asset.webp', '8c18613b-d802-4f74-b95f-22282242a6af': 'images/3f1818-asset.webp', '7651bc23-f31b-40d9-9cc6-1415b4954cdc': 'images/7c791a-asset.webp', '61de97a1-c4f6-40b1-be92-b7991663feb2': 'images/51b20b-asset.webp', 'b4648395-d12f-4cb3-917d-2c72bea892df': 'images/051504-asset.webp', '19233d18-f1ed-474b-b065-57d63f7d0bdb': 'images/97e7e7-asset.webp'}
+
 def gphoto(name, token):
-    return f"https://firebasestorage.googleapis.com/v0/b/interscopemediacrm.appspot.com/o/galleryClientes%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc%2FfotosCliente%2F{name}?alt=media&token={token}"
+    return _TOKEN_MAP[token]
 
 PHOTO_WINDOW_VIEW   = gphoto("0%20(20)-5369.webp", "8c18613b-d802-4f74-b95f-22282242a6af")  # exterior window cleaning + Methow mountains
 PHOTO_SILL_VALLEY   = gphoto("0%20(21)-548.webp",  "7651bc23-f31b-40d9-9cc6-1415b4954cdc")  # window sill + valley view
