@@ -88,19 +88,19 @@ def site_header(active):
     <a class="brand" href="index.html" aria-label="Alondra's Cleaning Services LLC">
       <img src="{LOGO}" alt="Alondra's Cleaning Services LLC" />
     </a>
-    <a class="phone-primary" href="tel:+15094495690">
-      <i class="fa-solid fa-phone"></i><span>509 · 449 · 5690</span>
-    </a>
     <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false">Menu</button>
   </div>
 </header>
 <nav class="primary-nav" id="primaryNav">
   <div class="container">
-    <a href="index.html"{cls('home')}>Home</a>
-    <a href="about.html"{cls('about')}>About</a>
-    <a href="services.html"{cls('services')}>Services</a>
-    <a href="gallery.html"{cls('gallery')}>Gallery</a>
-    <a href="contact.html"{cls('contact')}>Contact</a>
+    <div class="nav-links">
+      <a href="index.html"{cls('home')}>Home</a>
+      <a href="about.html"{cls('about')}>About</a>
+      <a href="services.html"{cls('services')}>Services</a>
+      <a href="gallery.html"{cls('gallery')}>Gallery</a>
+      <a href="contact.html"{cls('contact')}>Contact</a>
+    </div>
+    <a class="phone-primary" href="tel:+15094495690">509-449-5690</a>
   </div>
 </nav>"""
 
@@ -203,8 +203,8 @@ def home():
     <h1>Honest, careful cleaning for the homes of the <em>valley</em>.</h1>
     <p>We've been quietly caring for homes, vacation homes, and businesses from Lost River to Carlton for more than a decade — one careful clean at a time.</p>
     <div class="hero-actions">
-      <a class="btn btn-light" href="sms:+15094495690"><i class="fa-solid fa-comment"></i> Text 509-449-5690</a>
-      <a class="btn" style="background:transparent; color:var(--cream); border-color:rgba(250,245,236,0.5);" href="tel:+15094495690"><i class="fa-solid fa-phone"></i> Call</a>
+      <a class="btn btn-light" href="sms:+15094495690"><i class="fa-solid fa-comment"></i> Text Us</a>
+      <a class="btn" style="background:transparent; color:var(--cream); border-color:rgba(250,245,236,0.5);" href="tel:+15094495690"><i class="fa-solid fa-phone"></i> Call Us</a>
     </div>
   </div>
   <div class="hero-meta">— Alondra's Cleaning Services</div>
