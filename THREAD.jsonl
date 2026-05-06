@@ -1,0 +1,10 @@
+{"ts":"2026-05-05","kind":"opened","note":"Friend wants to remake alondrascleaningllc.com. Cloned old site for baseline; old site is on a CRM template (interscopemediacrm)."}
+{"ts":"2026-05-05","kind":"shifted","note":"v1 used Unsplash placeholders + fresh copy — felt 'totally different' to user. Pivoted to use her actual firebase image URLs and her own copy."}
+{"ts":"2026-05-05","kind":"shifted","note":"v2 brown+cyan palette matched the CRM template too literally. Pivoted to editorial direction: cream/sage/clay, Fraunces serif, centered logo."}
+{"ts":"2026-05-05","kind":"landed","note":"Curated 9 keepers from her 29 gallery photos. Skipped: toilets, dirty befores, sideways cabinets, generic vents. Hero is g04 (window cleaning + autumn Methow mountains)."}
+{"ts":"2026-05-05","kind":"landed","note":"Repo created and pushed: github.com/samheller/alondras-cleaning (public). Will transfer to owner's GH eventually."}
+{"ts":"2026-05-05","kind":"landed","note":"Restructured site output to public/ — keeps build.py and future process files in repo but out of deploy."}
+{"ts":"2026-05-05","kind":"landed","note":"Self-hosted all 11 firebase assets to public/images/. Site is now decoupled from the CRM. Owner can cancel old CRM safely. Old domain alondrascleaningllc.com already returns 000."}
+{"ts":"2026-05-05","kind":"landed","note":"Cloudflare Pages connected, alondrascleaning.com serving (200). Build command empty, output dir public/, deploy on push to main."}
+{"ts":"2026-05-05","kind":"opened","note":"Owner is Spanish-first; customers are English. Documented in CLAUDE.md operator context. Site stays English. Bilingual mode is signal-pending in VISION."}
+{"ts":"2026-05-05","kind":"landed","note":"Adopted hotcommons-process structure: CLAUDE.md, BACKLOG.md, VISION.md, NOTICES.md, THREAD.jsonl. All at repo root, none in deploy."}
