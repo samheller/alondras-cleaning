@@ -521,14 +521,16 @@ def feedback_page():
   <div class="container" style="max-width: 760px;">
     <p class="eyebrow">Preguntas para el sitio</p>
     <h2 style="font-size: clamp(1.6rem, 3vw, 2.2rem);">Quiero que la página de servicios suene como tú.</h2>
-    <p>Sam aquí. Estoy actualizando el sitio y la página de servicios suena muy genérica — quiero que suene como tú trabajas, no como una plantilla. ¿Puedes contestar las preguntas que puedas? Frases cortas son perfectas. No tienes que contestar todas — manda lo que tengas y seguimos después.</p>
+    <p>Sam aquí. Estoy actualizando el sitio y la página de servicios suena muy genérica — quiero que suene como tú trabajas, no como una plantilla. ¿Puedes contestar las preguntas que puedas? Frases cortas son perfectas. <strong>Escribe en español</strong> — no te preocupes por traducir, yo me encargo de eso. No tienes que contestar todas de una vez — tu progreso se guarda automáticamente, puedes regresar después.</p>
 
     <form class="contact-form" style="margin-top: 2rem;"
-          action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID"
-          method="POST"
-          onsubmit="return handleContactSubmit(event)">
+          action="https://formsubmit.co/samkheller@gmail.com"
+          method="POST">
       <input type="hidden" name="_subject" value="Respuestas de Alondra — sitio web" />
+      <input type="hidden" name="_cc" value="alondrascleaningservicesllc@gmail.com" />
       <input type="hidden" name="_next" value="https://alondrascleaning.com/para-alondra-gracias" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="box" />
 
       <h3 style="margin-top: 0;">En general</h3>
       <label for="q_traer">¿Qué traes contigo a cada trabajo? (productos, herramientas, equipo)</label>
@@ -584,8 +586,12 @@ def feedback_page():
       <label for="q_otra">¿Algo más que quieras agregar?</label>
       <textarea id="q_otra" name="q_otra" rows="3"></textarea>
 
-      <button type="submit" class="btn btn-ink"><i class="fa-solid fa-paper-plane"></i> Enviar respuestas</button>
-      <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--muted);">¿Mejor por mensaje de voz? Mándale a Sam un texto al <a href="sms:+15094495690">teléfono que tienes</a>.</p>
+      <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; margin-top: 0.5rem;">
+        <button type="submit" class="btn btn-ink"><i class="fa-solid fa-paper-plane"></i> Enviar respuestas</button>
+        <button type="button" class="btn btn-outline" onclick="emailToSam(this.form)"><i class="fa-regular fa-envelope"></i> Mejor por correo a Sam</button>
+        <span class="save-status" style="font-size:0.82rem; color:var(--muted); font-style:italic;"></span>
+      </div>
+      <p style="margin-top: 1.25rem; font-size: 0.85rem; color: var(--muted);">Tu progreso se guarda en este teléfono mientras escribes — puedes cerrar y regresar después.</p>
     </form>
   </div>
 </section>
