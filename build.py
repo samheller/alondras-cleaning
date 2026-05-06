@@ -6,6 +6,7 @@ Run: python3 build.py
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+OUT = ROOT / "public"  # Cloudflare Pages deploys from here
 
 # --- her assets on her firebase ---
 LOGO = "https://firebasestorage.googleapis.com/v0/b/interscopemediacrm.appspot.com/o/Clientes%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc%2Fb03e5cfa-d159-422f-95df-f5fbe73e26fc_normalLogo.webp?alt=media&token=9a50c1b2-0d53-4738-98d7-91836d65528a"
@@ -523,6 +524,7 @@ def contact_page():
 
 
 def main():
+    OUT.mkdir(exist_ok=True)
     pages = {
         'index.html': home(),
         'about.html': about(),
@@ -531,8 +533,14 @@ def main():
         'contact.html': contact_page(),
     }
     for name, content in pages.items():
-        (ROOT / name).write_text(content)
-        print(f"wrote {name}")
+        (OUT / name).write_text(content)
+        print(f"wrote public/{name}")
+    # copy static assets
+    for asset in ['styles.css', 'script.js']:
+        src = ROOT / asset
+        if src.exists():
+            (OUT / asset).write_text(src.read_text())
+            print(f"copied public/{asset}")
 
 
 if __name__ == '__main__':

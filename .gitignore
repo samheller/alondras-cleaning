@@ -8,12 +8,6 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Local AI / context files
-CLAUDE.md
-AGENTS.md
-.aider*
-memory/
-
 # Secrets & local config
 .env
 .env.*
