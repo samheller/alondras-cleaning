@@ -29,31 +29,39 @@ Read it before each session. Update it after.
 
 ## Service-detail interview (for Alondra)
 
-The services page reads vapid because the descriptions are mine, not hers. The fix is asking targeted questions — her answers become the new copy. Best done in one sitting, in Spanish if easier (Sam translates).
+The services page reads vapid because the descriptions are mine, not hers. Fix: ask targeted questions in Spanish — answers become the new copy. Voice-memo friendly. Anchor in customers she'll recognize (Little Star, the Airbnbs, her regular houses).
 
-**Lead-in:** "I'm trying to make the services page sound like you, not like a template. Can I ask you a handful of questions? Some answers I'll use word-for-word — your words always sound better than mine."
+**Para empezar (mensaje a Alondra):**
+> "Hola — quiero que la página de servicios suene como tú, no como una plantilla genérica. ¿Te puedo hacer unas preguntas? Puedes contestarme por mensaje de voz cuando tengas un momento — tus palabras siempre suenan mejor que las mías. No tienes que contestar todas de una vez."
 
-### Cross-cutting (ask first — these inform everything)
-- What's something you always do on every job that most cleaners skip?
-- Walk me through what you bring with you — products, tools, anything specific.
-- What's a recent job you were proud of? What made it good?
-- Is there a customer you've cleaned for for years — what does that relationship look like?
+### En general
+- ¿Qué traes contigo a cada trabajo? (Productos, herramientas, equipo que siempre llevas.)
+- ¿Qué es algo que tú haces siempre que mucha gente que limpia no hace?
 
-### Per service (one or two each)
-- **House Cleaning** — What's always on your list, no matter what? What does "tailored to the home" actually look like in practice?
-- **Residential / recurring** — Why do people pick recurring vs one-time? What changes between visits when you've been somewhere a year?
-- **Office & Commercial** — What kinds of businesses do you clean? After-hours or during the day? Any commercial work that's particularly satisfying?
-- **Deep Cleaning** — What's in a deep clean that isn't in a regular one? How long does one usually take? When do people book it?
-- **Move-In** — When you walk into an empty new home, what do you do first? What do people worry about, and how do you settle them?
-- **Move-Out** — What's on your checklist that landlords or buyers actually look for? Has someone gotten their full deposit back because of you?
-- **Post-Construction** — What's the hardest part? Drywall dust, paint, debris — which gets the most attention? A recent job worth telling a story about?
+### Casas regulares
+- Cuéntame de las casas que limpias regularmente — ¿qué tipo de casas son? ¿Cada cuánto vas? ¿Cuánto tiempo te toma una visita?
+- ¿Hay algún cliente que has limpiado por años? ¿Cómo es esa relación, qué ha cambiado con el tiempo?
 
-### Wrap-up (negative space — defines what she does well)
-- What's something you DON'T do that customers sometimes ask for?
-- If a customer is comparing you to another cleaner, what do you want them to know?
-- What's a service you wish customers asked for more often?
+### Airbnbs / casas de vacaciones
+- ¿Cuántos Airbnbs limpias al mes? ¿Cuánto tiempo te toma uno típico?
+- Cuando entras a un Airbnb después de que se fueron los huéspedes, ¿qué es lo primero que haces? ¿Qué te toma más tiempo?
+- ¿Qué te dicen los dueños de Airbnbs que aprecian de tu trabajo? ¿Algo que tú haces que otros no?
 
-After the interview: rewrite each service-row paragraph in her words. Keep them short (2–3 sentences each), specific, with a concrete detail per service that no template would write.
+### Negocios (Little Star, etc.)
+- Cuéntame de tu trabajo con Little Star — ¿qué haces ahí? ¿Cada cuánto vas? ¿Cuánto tiempo te toma?
+- ¿Qué otros negocios limpias? (Oficinas, otros lugares.) ¿Durante el día o después de horas?
+
+### Limpiezas especiales
+- ¿Qué hace que una limpieza sea "profunda" comparada con una regular? ¿Cuánto tiempo más toma?
+- ¿Has hecho limpiezas de mudanza (cuando alguien se va o llega a una casa)? ¿Qué es lo más importante en esos trabajos?
+- ¿Has limpiado después de construcción? ¿Qué es lo más difícil de ese tipo de trabajo?
+
+### Sobre ti
+- ¿Qué te hace diferente de otras compañías de limpieza en el valle?
+- ¿Hay algo que tú NO haces que a veces te piden?
+- Cuéntame un trabajo reciente que te hizo sentir orgullosa — ¿qué pasó?
+
+**After the interview:** rewrite each service-row paragraph using her actual phrases. Each gets a concrete detail no template would write (e.g., "always wipe the top of the doors," "I bring my own vacuum because hotel ones never reach into corners"). Length: 3–5 sentences per service, longer than current.
 
 ---
 
