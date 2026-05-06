@@ -85,14 +85,13 @@ def site_header(active):
     return f"""
 <header class="site-header">
   <div class="container">
-    <a class="header-side phone-link" href="tel:+15094495690">509-449-5690</a>
     <a class="brand" href="index.html" aria-label="Alondra's Cleaning Services LLC">
       <img src="{LOGO}" alt="Alondra's Cleaning Services LLC" />
     </a>
-    <div class="header-side cta-side">
-      <a class="cta-link" href="contact.html">Get a Quote</a>
-      <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false">Menu</button>
-    </div>
+    <a class="phone-primary" href="tel:+15094495690">
+      <i class="fa-solid fa-phone"></i><span>509 · 449 · 5690</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false">Menu</button>
   </div>
 </header>
 <nav class="primary-nav" id="primaryNav">
