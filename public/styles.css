@@ -33,14 +33,13 @@ a { color: var(--ink); text-decoration: none; transition: color 0.2s; }
 a:hover { color: var(--clay); }
 
 h1, h2, h3, h4 {
-  font-family: 'Fraunces', 'Georgia', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-weight: 400;
   font-style: normal;
   color: var(--ink);
   line-height: 1.08;
   letter-spacing: -0.02em;
   margin: 0 0 0.5em;
-  font-variation-settings: "SOFT" 30, "WONK" 0;
 }
 h1 { font-size: clamp(2.4rem, 6vw, 5rem); font-weight: 300; }
 h2 { font-size: clamp(2rem, 4.5vw, 3.4rem); font-weight: 300; }
@@ -137,9 +136,9 @@ p { margin: 0 0 1em; color: var(--ink-soft); max-width: 62ch; }
   align-items: center;
   gap: 0.4rem;
 }
-.brand img { height: 78px; width: auto; }
+.brand img { height: 110px; width: auto; }
 .brand-mark {
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-size: 0.78rem;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -160,7 +159,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); max-width: 62ch; }
   letter-spacing: 0.02em;
 }
 .header-cta .phone {
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-size: 1.1rem;
   font-weight: 400;
 }
@@ -217,7 +216,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); max-width: 62ch; }
     gap: 0.6rem;
     padding-top: 1rem; padding-bottom: 1rem;
   }
-  .brand img { height: 56px; }
+  .brand img { height: 80px; }
   .brand-mark { font-size: 0.62rem; letter-spacing: 0.2em; }
   .utility-fixed-right { display: none; }
   .nav-toggle { display: inline-block; justify-self: start; }
@@ -285,7 +284,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); max-width: 62ch; }
   z-index: 1;
   text-align: right;
   font-style: italic;
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   text-transform: none;
   letter-spacing: 0.01em;
   font-size: 0.85rem;
@@ -343,7 +342,7 @@ section.ink a { color: var(--tan); }
 }
 .signal strong {
   display: block;
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-size: clamp(2.4rem, 4vw, 3rem);
   font-weight: 300;
   color: var(--ink);
@@ -436,7 +435,7 @@ ul.checks li::before {
 .service-tile h3 { color: var(--ink); margin-bottom: 0.6rem; }
 .service-tile p { font-size: 0.95rem; color: var(--muted); flex: 1; }
 .service-tile .num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-style: italic;
   font-size: 1.15rem;
   color: var(--clay);
@@ -473,7 +472,7 @@ ul.checks li::before {
 }
 .service-row .service-row-img img { width: 100%; height: 100%; object-fit: cover; }
 .service-row .num {
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-style: italic;
   font-size: 1.1rem;
   color: var(--clay);
@@ -498,7 +497,7 @@ ul.checks li::before {
   background: var(--cream);
   padding: 1.5rem 1rem;
   text-align: center;
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-size: 1.4rem;
   font-weight: 300;
 }
@@ -510,7 +509,7 @@ ul.checks li::before {
   margin: 0 auto;
 }
 .quote blockquote {
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-weight: 300;
   font-size: clamp(1.5rem, 3vw, 2.2rem);
   line-height: 1.3;
@@ -540,7 +539,7 @@ ul.checks li::before {
 .cta-band p { color: rgba(250,245,236,0.8); max-width: 56ch; margin: 1rem auto 2rem; }
 .cta-band .phone-large {
   display: block;
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-size: clamp(2rem, 5vw, 3.4rem);
   color: var(--tan);
   margin: 1.5rem 0;
@@ -602,7 +601,7 @@ ul.checks li::before {
 .contact-side dt:first-of-type { margin-top: 0; }
 .contact-side dd {
   margin: 0;
-  font-family: 'Fraunces', serif;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -674,7 +673,7 @@ form.contact-form textarea { resize: vertical; min-height: 100px; }
 .site-footer a { color: var(--ink-soft); }
 .site-footer a:hover { color: var(--clay); }
 .site-footer .footer-brand img { height: 60px; margin-bottom: 1rem; }
-.site-footer .footer-brand p { font-family: 'Fraunces', serif; font-size: 1.05rem; line-height: 1.5; max-width: 30ch; }
+.site-footer .footer-brand p { font-family: 'Cormorant Garamond', 'Georgia', serif; font-size: 1.05rem; line-height: 1.5; max-width: 30ch; }
 .site-footer .socials { display: flex; gap: 0.6rem; margin-top: 1.5rem; }
 .site-footer .socials a {
   width: 36px; height: 36px;

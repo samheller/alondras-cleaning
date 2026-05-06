@@ -69,7 +69,7 @@ def head(title, desc):
   <link rel="icon" type="image/webp" href="{FAVICON}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -155,7 +155,7 @@ def site_footer():
   <div class="container footer-top">
     <div class="footer-brand">
       <img src="{LOGO}" alt="" />
-      <p>Quiet, careful cleaning for the homes and businesses of the Methow Valley.</p>
+      <p>Quiet, careful cleaning for homes, vacation homes, and businesses across the Methow Valley.</p>
       <div class="socials">
         <a href="https://wa.me/+15094495690" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.tiktok.com/@alondras.cleaning1" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
@@ -221,7 +221,7 @@ def home():
   <div class="container">
     <p class="eyebrow">Methow Valley, est. 2013</p>
     <h1>Honest, careful cleaning for the homes of the <em>valley</em>.</h1>
-    <p>We've been quietly caring for homes and businesses from Lost River to Carlton for more than a decade — one careful clean at a time.</p>
+    <p>We've been quietly caring for homes, vacation homes, and businesses from Lost River to Carlton for more than a decade — one careful clean at a time.</p>
     <div class="hero-actions">
       <a class="btn btn-light" href="sms:+15094495690"><i class="fa-solid fa-comment"></i> Text 509-449-5690</a>
       <a class="btn" style="background:transparent; color:var(--cream); border-color:rgba(250,245,236,0.5);" href="tel:+15094495690"><i class="fa-solid fa-phone"></i> Call</a>
@@ -261,7 +261,7 @@ def home():
     <div class="section-intro">
       <p class="eyebrow">What We Do</p>
       <h2>Six services, one careful approach.</h2>
-      <p>From a single deep clean to ongoing care for a vacation rental, we work in homes and businesses of every shape across the valley.</p>
+      <p>From a single deep clean to ongoing care for a vacation rental, we work in homes, second homes, and businesses of every shape across the valley.</p>
     </div>
     <div class="services-list">
 {services_tiles}
