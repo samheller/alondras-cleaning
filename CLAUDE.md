@@ -34,9 +34,9 @@ Anything outside `public/` is repo-only and never deploys.
 
 ## Conventions
 
+- **Don't be greedy.** This is a small site for a small business. Items earn warmth by signal (owner says it, real flow surfaces it, visitor friction shows up) — not by interestingness, completeness, or "while we're here." Resist the urge to add. The simplest thing that works is the right answer. When in doubt: fewer pages, fewer fields, fewer choices, fewer features in flight.
 - One concrete thing per response, not a questionnaire.
 - Append to `THREAD.jsonl` when something lands, shifts, or opens. In the moment, not at the end.
-- Backlog items earn their way to **warm** by signal (owner says it, real flow surfaces it, customer asks). Not by interestingness.
 - Public-facing copy: plain, valley-rooted, no jargon, no marketing fluff.
 - Photos: only owner's own job photos. No stock. Skip toilets/befores/dirty unless the visual story is "we handle the gross stuff" (it isn't).
 - Commit messages capture what was said + what shifted. Brief is fine.
