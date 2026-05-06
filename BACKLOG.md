@@ -27,6 +27,36 @@ Read it before each session. Update it after.
 
 ---
 
+## Service-detail interview (for Alondra)
+
+The services page reads vapid because the descriptions are mine, not hers. The fix is asking targeted questions — her answers become the new copy. Best done in one sitting, in Spanish if easier (Sam translates).
+
+**Lead-in:** "I'm trying to make the services page sound like you, not like a template. Can I ask you a handful of questions? Some answers I'll use word-for-word — your words always sound better than mine."
+
+### Cross-cutting (ask first — these inform everything)
+- What's something you always do on every job that most cleaners skip?
+- Walk me through what you bring with you — products, tools, anything specific.
+- What's a recent job you were proud of? What made it good?
+- Is there a customer you've cleaned for for years — what does that relationship look like?
+
+### Per service (one or two each)
+- **House Cleaning** — What's always on your list, no matter what? What does "tailored to the home" actually look like in practice?
+- **Residential / recurring** — Why do people pick recurring vs one-time? What changes between visits when you've been somewhere a year?
+- **Office & Commercial** — What kinds of businesses do you clean? After-hours or during the day? Any commercial work that's particularly satisfying?
+- **Deep Cleaning** — What's in a deep clean that isn't in a regular one? How long does one usually take? When do people book it?
+- **Move-In** — When you walk into an empty new home, what do you do first? What do people worry about, and how do you settle them?
+- **Move-Out** — What's on your checklist that landlords or buyers actually look for? Has someone gotten their full deposit back because of you?
+- **Post-Construction** — What's the hardest part? Drywall dust, paint, debris — which gets the most attention? A recent job worth telling a story about?
+
+### Wrap-up (negative space — defines what she does well)
+- What's something you DON'T do that customers sometimes ask for?
+- If a customer is comparing you to another cleaner, what do you want them to know?
+- What's a service you wish customers asked for more often?
+
+After the interview: rewrite each service-row paragraph in her words. Keep them short (2–3 sentences each), specific, with a concrete detail per service that no template would write.
+
+---
+
 ## Warm
 
 - **Wire Formspree on the contact form.** Currently `action=REPLACE_WITH_FORMSPREE_ID`; falls back to mailto. Sign her up, paste the ID, deploy.
